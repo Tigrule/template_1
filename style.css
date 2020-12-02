@@ -1,0 +1,322 @@
+body {
+    background: url(images/background.jpg) top right;
+    background-size: cover;
+    font-size: 11px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #444;
+    word-spacing: 1px;
+    line-height: 1.7em;
+    height: 100%;
+}
+
+div {
+    display: block
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 50px auto 0 auto;
+    background-color: #ffffffaa;
+
+}
+
+.global-block {
+    border: 1px solid #cccccc;
+    padding: 15px 10px;
+    box-shadow: 2px 2px #eeeeee;
+}
+
+header {
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    padding: 25px 10px;
+    background-color: #fde9e9ee;
+    justify-content: space-between;
+}
+
+.header-top__icon {
+}
+
+.header-top__nav {
+    /*margin-left: auto;*/
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    Padding: 5px 15px;
+    margin: 0 8px;
+    border-radius: 1px;
+    font-size: 13px;
+    flex: 1 2 auto;
+}
+
+.nav-chosen, .nav-item:hover {
+    color: White;
+    background-color: #ffbbbb
+
+}
+
+.header-body {
+}
+
+.header-body__image {
+    margin: 10px 0 0 0;
+}
+
+.header-body__image img {
+    max-width: 100%;
+}
+
+.main-content {
+    /*background-color: #fde9e9ee;*/
+    vertical-align: top;
+    padding: 0 10px;
+    /*position: relative;*/
+}
+
+main {
+    line-height: 1.7em;
+    display: flex;
+    /*width: 70%;*/
+    /*float:left;*/
+}
+
+.main {
+    flex: 0 0 67%;
+}
+
+.main__item {
+}
+
+.main__header {
+    color: black;
+    font-size: 250%;
+    font-weight: 400;
+}
+
+.main__text {
+}
+
+.item-container {
+}
+
+.item-container__h2 {
+}
+
+.item-container__header {
+    font-weight: bold;
+}
+
+.item-container__body {
+    display: flex;
+}
+
+.item-container__image {
+    border: 1px solid #eeeeee;
+    padding: 3px;
+    margin: 0 20px 0 0;
+
+}
+
+.item-container__content {
+}
+
+.item-container__text {
+}
+
+.item-container__footer {
+}
+
+aside {
+}
+
+.aside {
+    padding: 0 0 0 20px;
+
+}
+
+.aside_item {
+}
+
+.aside__header {
+    color: black;
+    font-size: 250%;
+    font-weight: 400;
+    margin: 18px auto;
+}
+
+.aside__text {
+}
+
+.aside-table {
+}
+
+.aside-table ul {
+    list-style-image: url(images/templatemo_list.png)
+}
+
+.newsletter {
+    padding: 10px;
+    background: #fbe9ef;
+}
+
+.newsletter__header {
+}
+
+.newsletter__text {
+}
+
+#newsletter__input {
+}
+
+
+.bottom-main {
+    display: flex;
+    max-width: 100%;
+    padding: 10px 10px 20px 10px;
+}
+
+.bottom-main__column {
+    padding: 10px;
+    flex: 0 0 25%;
+    max-width: 24%;
+}
+
+.col {
+    max-width: 80%;
+}
+
+/*.col table td {
+    padding: 0;
+    margin: 0;
+}
+
+.col__collage img {
+    max-width: 100%;
+    border-collapse: collapse;
+}*/
+
+.col__collage a {
+    max-width: 30%;
+}
+
+.col__collage img {
+
+    width: 100%;
+}
+
+.col ul {
+    display: block;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.col li {
+    line-height: 0;
+    display: block;
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 30%;
+    /*border: 1px solid #E76D13;*/
+    /*margin: -5px;*/
+}
+
+.red-a {
+    color: red;
+    text-decoration: underline;
+}
+
+.red-a:hover {
+    text-decoration: none;
+}
+
+.r-i {
+    color: red;
+    font-style: italic;
+    line-height: 2em;
+}
+
+.col-p p {
+    margin: 15px auto;
+    max-width: 100%;
+    padding-right: 30px;
+}
+
+footer {
+    background: radial-gradient(transparent, transparent 1px, #eeeeee 2px, #bbbbbb);
+    /*padding: 10px;*/
+    background-size: 5px 5px;
+    /*background-color: #eeeeee;*/
+    padding: 10px 10px 10px 13%;
+    margin-top: 50px;
+}
+
+.footer-p {
+}
+
+/*.container {*/
+/*    background: #B7D1D8;*/
+/*    padding: 25px;*/
+/*}*/
+/*.wrap {*/
+/*
+/*}*/
+/*img {*/
+/*    width: 100%;}*/
+
+@media screen and (max-width: 768px),
+ screen and (max-device-width: 720px) {
+    main {
+        display: block;
+    }
+
+    .main {
+        float: none;
+    }
+
+    aside {
+        float: none;
+    }
+
+    .item-container__body {
+        display: block;
+    }
+
+    .header-top {
+        display: block;
+    }
+
+    .bottom-main {
+        display: grid;
+    }
+
+    .col {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .bottom-main__column {
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .bottom-main__column p {
+        padding-left: 5px;
+    }
+
+    .collage li {
+        max-width: 10%;
+    }
+}
+
